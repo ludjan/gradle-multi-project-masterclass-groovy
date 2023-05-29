@@ -1,13 +1,6 @@
 plugins {
     id 'java-library'
-}
-
-repositories {
-    mavenCentral()
-}
-
-test {
-    useJUnitPlatform()
+    id 'no.ludjan.maxirail.common-conventions'
 }
 
 dependencies {

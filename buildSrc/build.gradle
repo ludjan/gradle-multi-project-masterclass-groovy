@@ -1,11 +1,7 @@
 plugins {
-    id 'java'
+    id 'groovy-gradle-plugin'
 }
 
 repositories {
     gradlePluginPortal()
-}
-
-test {
-    useJUnitPlatform()
 }
