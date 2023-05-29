@@ -1,5 +1,5 @@
 # gradle-multi-project-masterclass-groovy
-This is a project where I tested out building a multi-module project with Gradle groovy
+This is a project where I tested out building a multi-module project with Gradle groovy by following the instructions on https://gradlehero.com/courses/gradle-multi-project-masterclass/why-multi-project/
 
 ## Stack
 - Gradle 8.1.1
