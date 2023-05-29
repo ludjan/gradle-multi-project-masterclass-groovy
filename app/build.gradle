@@ -2,15 +2,13 @@ plugins {
     id 'java-library'
     id 'org.springframework.boot' version '2.6.4'
     id 'no.ludjan.maxirail.common-conventions'
-}
-
-test {
-    useJUnitPlatform()
+    id 'application'
 }
 
 dependencies {
-    implementation(project(':service'))
+    api(project(':service'))
     implementation(libs.spring.boot.web)
     testImplementation(libs.spring.boot.test)
 }
 
+mainClassName = 'no.ludjan.maxirail.MaxiRailApplication'
