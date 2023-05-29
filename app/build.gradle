@@ -9,7 +9,8 @@ test {
 }
 
 dependencies {
-    implementation 'org.springframework.boot:spring-boot-starter-web:2.6.4'
-    testImplementation 'org.springframework.boot:spring-boot-starter-test:2.6.4'
-    api(project(':service'))
+    implementation(project(':service'))
+    implementation(libs.spring.boot.web)
+    testImplementation(libs.spring.boot.test)
 }
+
